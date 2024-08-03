@@ -1,0 +1,31 @@
+.plansScreen_plan {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.plansScreen_buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.plansScreen_button {
+    margin-bottom: 15px;
+    color: white;
+    background-color: #e50914;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+.plansScreen_info > h5{
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+
+.plansScreen_description {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
